@@ -32,25 +32,20 @@ Ask questions about your documents and hear the answers! VOXQuery combines power
 
 ## 🚀 Installation & Setup
 
-### 1. Clone Repositories
+### 1. Download Project Files
 
-```bash
-# Frontend
-git clone https://github.com/ABHI9234/vox-speak-docs.git
-cd vox-speak-docs
-
-# Backend
-git clone https://github.com/ABHI9234/voxquery-backend.git backend
-cd backend
-```
+Download the complete project folder containing:
+- `backend/` - FastAPI backend
+- `frontend/` - React frontend
+- Model files (see Step 2)
 
 ### 2. Download Fine-Tuned Model
 
 **Download:** [Google Drive Link - VOXQuery Model](https://drive.google.com/file/d/18oypqRMpaiJzMuu2_XQwhg_C4JqyVUxU/view?usp=drive_link)
 
-The fine-tuned RoBERTa model (1.53GB) is shared via Google Drive for rapid deployment during the demonstration phase. Migration to Hugging Face for automated downloads is planned for the production release.
+The fine-tuned RoBERTa model (1.53GB) is shared via Google Drive for rapid deployment during demonstration. Hugging Face integration for automated downloads is planned for future releases.
 
-Extract to:
+Extract the downloaded zip to:
 ```
 backend/models/roberta_finetuned_final/
 ├── config.json
@@ -120,7 +115,7 @@ VITE v5.x.x ready in XXX ms
 ➜  Local:   http://localhost:5173/
 ```
 
-**Access:** http://localhost:5173
+**Access:** Open browser and go to http://localhost:5173
 
 ## 📖 Usage Guide
 
@@ -195,17 +190,9 @@ utterance.volume = 1.0;  // Volume (0-1)
 - [ ] Conversation history
 - [ ] Cloud deployment
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/name`)
-3. Commit changes (`git commit -m 'Add feature'`)
-4. Push to branch (`git push origin feature/name`)
-5. Open Pull Request
-
 ## 📝 License
 
-MIT License - see LICENSE file
+MIT License
 
 ## 👤 Author
 
