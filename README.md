@@ -1,3 +1,7 @@
+
+
+***
+
 # VOXQuery - Voice-Enabled Document Q&A Chatbot
 
 Ask questions about your documents and hear the answers! VOXQuery combines powerful AI with voice interaction to create an intelligent document assistant.
@@ -42,11 +46,11 @@ cd backend
 
 ### 2. Download Fine-Tuned Model
 
-The fine-tuned RoBERTa model (1.53GB) is hosted on Google Drive due to GitHub's 100MB file size limit.
+**Download:** [Google Drive Link - VOXQuery Model](https://drive.google.com/file/d/18oypqRMpaiJzMuu2_XQwhg_C4JqyVUxU/view?usp=drive_link)
 
-**Download:** [Google Drive Link - VOXQuery Model](YOUR_GOOGLE_DRIVE_LINK_HERE)
+The fine-tuned RoBERTa model (1.53GB) is shared via Google Drive for rapid deployment during the demonstration phase. Migration to Hugging Face for automated downloads is planned for the production release.
 
-Extract the downloaded zip file to:
+Extract to:
 ```
 backend/models/roberta_finetuned_final/
 ├── config.json
@@ -182,6 +186,14 @@ utterance.volume = 1.0;  // Volume (0-1)
 - Use PDFs <50 pages for faster processing
 - Close other applications to free RAM
 - Adjust chunk_size based on document type
+
+## 🔮 Roadmap
+
+- [ ] Migrate model hosting to Hugging Face for automated downloads
+- [ ] Support for PPTX and DOCX files
+- [ ] Multi-document support
+- [ ] Conversation history
+- [ ] Cloud deployment
 
 ## 🤝 Contributing
 
