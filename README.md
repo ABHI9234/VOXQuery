@@ -1,6 +1,4 @@
-Perfect — here is the **FULL, FINAL, CLEAN README**
-👉 **Copy–paste this entire block into `VOXQuery/README.md`**
-No edits needed. Interview-ready. Emoji-cool but not cringe.
+
 
 ---
 
@@ -11,9 +9,6 @@ No edits needed. Interview-ready. Emoji-cool but not cringe.
 📄 Upload → 🔍 Retrieve → 🧠 Answer → ⚡ Fast
 
 [![Demo Video](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=IfmsB6R9W4o)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Production-blue?logo=fastapi)](https://fastapi.tiangolo.com)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](#)
-[![Accuracy](https://img.shields.io/badge/Accuracy-92%25-success)](#)
 
 ---
 
@@ -22,23 +17,7 @@ No edits needed. Interview-ready. Emoji-cool but not cringe.
 - Upload technical PDFs (e.g. **Computer Networks theory**)
 - Ask natural language questions
 - Receive **accurate answers with confidence scores and source chunks**
-
-> Example  
-> 📄 Upload: `CN_Theory.pdf`  
-> ❓ Ask: *“What is ARPANET?”*  
-> ✅ Answer: High-quality response with **92% confidence in ~200ms**
-
 ---
-
-## 🎯 Accuracy Snapshot
-| Question | Confidence | Latency | Source |
-|---------|------------|---------|--------|
-| What is ARPANET? | **92%** | 187ms | Chunk 14 |
-| TCP/IP history | **89%** | 156ms | Chunk 23 |
-| OSI layers | **91%** | 203ms | Chunk 8 |
-
----
-
 ## 🧠 RAG Architecture
 ```
 
