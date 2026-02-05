@@ -1,11 +1,8 @@
---index-url https://download.pytorch.org/whl/cpu
-torch==1.13.1+cpu
-torchvision==0.14.1+cpu
 fastapi==0.115.0
 uvicorn[standard]==0.32.0
 python-multipart==0.0.9
 PyPDF2==3.0.1
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
 numpy
 scikit-learn
 pydantic
